@@ -4,9 +4,9 @@
   "description": "Webpack loader that applies regex to file",
   "license": "MIT",
   "repository": {
-		"type": "git",
-		"url": "git@github.com:fongandrew/replace-loader.git"
-	},
+    "type": "git",
+    "url": "git@github.com:fongandrew/replace-loader.git"
+  },
   "devDependencies": {},
   "dependencies": {
     "loader-utils": "^0.2.11"

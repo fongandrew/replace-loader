@@ -1,8 +1,12 @@
 {
   "name": "replace-loader",
   "version": "0.1.0",
-  "description": "Boilerplate for Truescript / Flux / React setup",
+  "description": "Webpack loader that applies regex to file",
   "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "git@github.com:fongandrew/replace-loader.git"
+	},
   "devDependencies": {},
   "dependencies": {
     "loader-utils": "^0.2.11"

@@ -5,7 +5,7 @@ module.exports = function(content) {
   if (this.cacheable) { this.cacheable(); }
   
   var query = loaderUtils.parseQuery(this.query);
-  if (typeof query === "object" && query.regex && query.sub) {
+  if (typeof query === "object" && query.regex && typeof query.sub === "string") {
     var regex = new RegExp(query.regex, query.flags);
     content = content.replace(regex, query.sub);
   }
